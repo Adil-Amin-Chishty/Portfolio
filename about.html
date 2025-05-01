@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>About Adil Chishty</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-details {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .about-section {
+      margin-bottom: 3rem;
+      background: var(--snd-bg-color);
+      padding: 2rem;
+      border-radius: 1rem;
+      border: 1px solid var(--main-color);
+      box-shadow: 0 0 15px rgba(0, 255, 157, 0.1);
+    }
+    .about-section h2 {
+      color: var(--main-color);
+      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+    }
+    .about-section h3 {
+      color: var(--text-color);
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .about-section p, .about-section li {
+      color: var(--text-color);
+      font-size: 1.6rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .skills-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .skill-item {
+      background: rgba(0, 255, 157, 0.1);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid var(--main-color);
+    }
+    .back-btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: var(--main-color);
+      color: var(--bg-color);
+      border-radius: 0.5rem;
+      text-decoration: none;
+      margin-top: 2rem;
+      transition: all 0.3s ease;
+    }
+    .back-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 15px var(--main-color);
+    }
+    .experience-item {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+    }
+    .experience-item h4 {
+      color: var(--main-color);
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .experience-item .duration {
+      color: var(--accent-color);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="about-details">
+    <div class="about-section">
+      <h2>About Adil Chishty</h2>
+      <p>My name is Adil Chishty, a dedicated and motivated Computer Science student currently enrolled at Bahria University, Islamabad. I have a strong passion for technology, creative media, and game development. Throughout my academic and professional journey, I have gained practical experience in video editing, game design, programming, and interactive content creation. I continuously strive to improve my skills, take on new challenges, and contribute meaningfully to any team or project I am part of.</p>
+    </div>
+
+    <div class="about-section">
+      <h2>Professional Experience</h2>
+      
+      <div class="experience-item">
+        <h4>Unity 3D Game Developer Intern</h4>
+        <p class="duration">Pixel Square (3 Months)</p>
+        <p>During my internship at Pixel Square, I worked as a Unity 3D Game Developer, where I was responsible for a range of core development tasks within the Unity engine. This experience gave me practical exposure to both technical and creative aspects of game development.</p>
+        <ul>
+          <li>Implementing character movement mechanics and fine-tuning player controls.</li>
+          <li>Designing and building game levels and environments using Unity's terrain tools.</li>
+          <li>Integrating AI opponents using Unity's NavMesh and custom behavior scripting.</li>
+          <li>Scripting gameplay mechanics using C# (Unity Scripting API).</li>
+          <li>Participating in both front-end (visuals/UI) and back-end (logic/state) development.</li>
+          <li>Collaborating with team members in an agile development environment.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h4>2D Video Editor</h4>
+        <p class="duration">Freelance Contract (6 Months)</p>
+        <p>I worked on a 6-month freelance contract as a 2D Video Editor, where I delivered a wide range of high-quality visual content for social media, advertisements, and YouTube channels.</p>
+        <ul>
+          <li>Color grading and correction to create consistent and visually appealing aesthetics.</li>
+          <li>Motion tracking and adding dynamic effects to enhance storytelling.</li>
+          <li>Masking techniques for smooth transitions and layered compositions.</li>
+          <li>Creating logo animations, intros, and outros for branded content.</li>
+          <li>Applying video stabilization to improve shaky footage.</li>
+          <li>Syncing and editing sound effects and background music.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <h2>Academic Background</h2>
+      <h3>Bachelor's in Computer Science</h3>
+      <p>Bahria University, Islamabad</p>
+      <p>Expected Graduation: [Insert Year]</p>
+      
+      <h3>Final Year Project (FYP)</h3>
+      <p>I am developing a narrative-based zombie survival game that combines interactive storytelling with AI elements. The game includes:</p>
+      <ul>
+        <li>A storyline where a zombie virus has spread and the player must escape a forest and reach a city.</li>
+        <li>The search for a scientist named Dr. Gero who may hold the key to stopping the outbreak.</li>
+        <li>A chatbot system integrated into the game, which players can interact with to receive information and guidance.</li>
+        <li>Realization in the story that freezing temperatures can neutralize the zombies.</li>
+        <li>AI enemies, survival mechanics, and 2D player movement built within a 3D environment using Unity.</li>
+      </ul>
+    </div>
+
+    <div class="about-section">
+      <h2>Technical Skills</h2>
+      <div class="skills-list">
+        <div class="skill-item">
+          <h3>Game Development</h3>
+          <p>Unity (2D/3D), Unreal Engine, AI Integration, Level Design</p>
+        </div>
+        <div class="skill-item">
+          <h3>Programming Languages</h3>
+          <p>C++, C#, Python, Java (for mobile development)</p>
+        </div>
+        <div class="skill-item">
+          <h3>Video Editing</h3>
+          <p>Adobe Premiere Pro, After Effects, Audacity, DaVinci Resolve</p>
+        </div>
+        <div class="skill-item">
+          <h3>Other Tools</h3>
+          <p>Git, Trello, GNS3, Blender</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <h2>Personal Interests</h2>
+      <ul>
+        <li>Playing video games and analyzing game mechanics</li>
+        <li>Bike riding and exploring nature</li>
+        <li>Traveling and discovering new cultures</li>
+      </ul>
+    </div>
+
+    <div class="about-section">
+      <h2>Career Goals</h2>
+      <p>I am looking for remote opportunities in video editing, game development, or technical assistant roles where I can continue to grow professionally and contribute my skills to meaningful projects. My aim is to work in a collaborative environment that challenges me to learn, innovate, and evolve.</p>
+    </div>
+
+    <a href="index.html" class="back-btn">Go Back to Portfolio</a>
+  </div>
+</body>
+</html> 

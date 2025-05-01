@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>Adil Chishty Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -12,11 +13,13 @@
   <!--Header Section Code-->
   <header class="header">
     <a href="#home" class="logo">Adil Chishty</a>
-    <i class='bx bx-menu' id ="menu-icon"></i>
+    <i class='bx bx-menu' id="menu-icon"></i>
     <nav class="navbar">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -55,7 +58,7 @@
         character movement and AI integration using Unity and Unreal Engine. I also offer web development services, building responsive and 
         user-friendly websites with modern technologies. Additionally, I work on machine learning projects, focusing on creating intelligent 
         systems and data-driven solutions. I am committed to delivering high-quality work that combines creativity, technology, and precision.</p>
-        <a href="#" class="btn">Read More</a>
+        <a href="./about.html" class="btn">Read More</a>
     </div>
 
     <div class="about-img">
@@ -73,48 +76,390 @@
         <h3>Game Development</h3>
         <p>Dive into the world of creativity and logic by building immersive game environments. Learn character movement, AI scripting, 
           level design, and optimization techniques using engines like Unity and Unreal Engine.</p>
-          <a href="#"class= "btn">Read More</a>
+          <a href="game-dev.html" class="btn">Read More</a>
       </div>
       <div class="services-box">
         <i class="bx bx-code"></i>
         <h3>Web Development</h3>
-        <p>Create stunning websites and powerful web applications! Master front-end technologies like HTML, 
-          CSS, JavaScript, and frameworks like React. Learn back-end skills including Node.js, databases, and RESTful APIs.</p>
-          <a href="#"class= "btn">Read More</a>
+        <p>I create responsive and interactive websites using HTML, CSS, and JavaScript. My focus is on clean code, modern design, and optimal user experience.</p>
+        <a href="web-dev.html" class="btn">Read More</a>
     </div>
     <div class="services-box">
       <i class="bx bx-brain"></i>
       <h3>Machine Learning</h3>
-      <p>Explore the future of technology with machine learning! Understand algorithms, data preprocessing, model training, 
+        <p>I explore the future of technology with machine learning! Understand algorithms, data preprocessing, model training, 
         and deployment using Python libraries like TensorFlow, Keras, and Scikit-learn.</p>
-        <a href="#"class= "btn">Read More</a>
+          <a href="ml.html" class="btn">Read More</a>
     </div>
     </div>
   </section>
   <!--Services Section Code End-->
 
-  <!--Contact Section Starts here-->
-  <section class="contact" id="contact">
-    <h2 class="headings">Contact <span>Me</span></h2>
-
-    <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder="Enter your name" required>
-        <input type="email" placeholder="Enter your email" required>
-      </div>
-      <div class="input-box">
-        <input type="number" placeholder="Enter your number" required>
-        <input type="text" placeholder="Enter your subject" required>
+  <!--Projects Section Code-->
+  <section class="projects" id="projects">
+    <h2 class="headings">My <span>Projects</span></h2>
+    <div class="projects-container">
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Survival Adventure Game">
+        <div class="project-layer">
+          <h4>Virsua: The Winter's Cure</h4>
+          <p>A survival-based action-adventure game where players battle AI enemies to find a cure in a winter setting</p>
+          <div class="tech-stack">
+            <span>Unreal Engine 5</span>
+            <span>Blueprints</span>
+            <span>C++</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
         </div>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
-    </form>
+      </div>
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Food Allergy Detection">
+        <div class="project-layer">
+          <h4>Food Allergy Detection</h4>
+          <p>A machine learning model that identifies food allergens in images for health purposes</p>
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>CNNs</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="3D Car Animation">
+        <div class="project-layer">
+          <h4>3D Car Animation</h4>
+          <p>A 3D car animation showcasing realistic movements and effects</p>
+          <div class="tech-stack">
+            <span>Blender</span>
+            <span>Animation</span>
+            <span>Keyframe</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Web Racing Game">
+        <div class="project-layer">
+          <h4>Web Racing Game</h4>
+          <p>A fully interactive 3D racing game built with HTML, CSS, and JavaScript for the web</p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>JavaScript</span>
+            <span>Three.js</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="AI Chatbot">
+        <div class="project-layer">
+          <h4>AI Chatbot</h4>
+          <p>An AI-powered chatbot that provides automated customer support and queries management</p>
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>NLTK</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Vehicle Detection">
+        <div class="project-layer">
+          <h4>Vehicle Detection</h4>
+          <p>Detects and classifies armed vehicles from satellite imagery for security purposes</p>
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>YOLO</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Fact Checker">
+        <div class="project-layer">
+          <h4>AI Fact Checker</h4>
+          <p>A web scraping-based tool that checks the authenticity of online claims and uses sentiment analysis</p>
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>NLP</span>
+            <span>TensorFlow</span>
+          </div>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
   </section>
+  <!--Projects Section Code End-->
 
-  <!--Contact Section Ends here-->
+  <!--Skills Section Code-->
+  <section class="skills" id="skills">
+    <h2 class="headings">My <span>Skills</span></h2>
+    
+    <div class="skills-container">
+      <!-- Game Development Skills -->
+      <div class="skill-category" data-category="game-dev">
+        <div class="category-header">
+          <i class='bx bx-joystick'></i>
+          <h3>Game Development</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-skill="unity">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="90"></div>
+              <span class="skill-percent">90%</span>
+            </div>
+            <h4>Unity 3D</h4>
+            <p>Proficient in developing games with Unity, including character movement, map creation, AI implementation, and game mechanics.</p>
+          </div>
+          <div class="skill-item" data-skill="unreal">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="80"></div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <h4>Unreal Engine 5</h4>
+            <p>Experienced in game design, AI development, and Blueprint scripting. Knowledgeable in Behavior Trees and C++.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web Development Skills -->
+      <div class="skill-category" data-category="web-dev">
+        <div class="category-header">
+          <i class='bx bx-code-alt'></i>
+          <h3>Web Development</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-skill="html">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="100"></div>
+              <span class="skill-percent">100%</span>
+            </div>
+            <h4>HTML/CSS</h4>
+            <p>Strong expertise in building responsive websites using HTML5 and CSS3, ensuring cross-browser compatibility.</p>
+          </div>
+          <div class="skill-item" data-skill="js">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="90"></div>
+              <span class="skill-percent">90%</span>
+            </div>
+            <h4>JavaScript</h4>
+            <p>Skilled in JavaScript for dynamic web content, including game development and interactive elements.</p>
+          </div>
+          <div class="skill-item" data-skill="webgl">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="80"></div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <h4>WebGL & Three.js</h4>
+            <p>Experience using WebGL and Three.js to create 3D interactive elements and games on web platforms.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Machine Learning Skills -->
+      <div class="skill-category" data-category="ml">
+        <div class="category-header">
+          <i class='bx bx-brain'></i>
+          <h3>Machine Learning</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-skill="tensorflow">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="90"></div>
+              <span class="skill-percent">90%</span>
+            </div>
+            <h4>TensorFlow/Keras</h4>
+            <p>Extensive experience with TensorFlow and Keras for building neural networks and machine learning models.</p>
+          </div>
+          <div class="skill-item" data-skill="nlp">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="80"></div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <h4>NLP</h4>
+            <p>Proficient in text processing, chatbot development, and sentiment analysis using TensorFlow and NLTK.</p>
+          </div>
+          <div class="skill-item" data-skill="cv">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="80"></div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <h4>Computer Vision</h4>
+            <p>Solid understanding of image processing, object detection, and real-time applications using OpenCV and YOLO.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3D & Video Skills -->
+      <div class="skill-category" data-category="3d">
+        <div class="category-header">
+          <i class='bx bx-cube-alt'></i>
+          <h3>3D & Video</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-skill="blender">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="90"></div>
+              <span class="skill-percent">90%</span>
+            </div>
+            <h4>Blender</h4>
+            <p>Strong proficiency in 3D modeling, animation, and lighting techniques for creating immersive environments.</p>
+          </div>
+          <div class="skill-item" data-skill="premiere">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="90"></div>
+              <span class="skill-percent">90%</span>
+            </div>
+            <h4>Premiere Pro</h4>
+            <p>Expert in video editing, including color grading, motion tracking, and sound effects.</p>
+          </div>
+          <div class="skill-item" data-skill="ae">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="80"></div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <h4>After Effects</h4>
+            <p>Skilled in creating motion graphics, special effects, and visual enhancements for videos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- App Development Skills -->
+      <div class="skill-category" data-category="app-dev">
+        <div class="category-header">
+          <i class='bx bx-mobile-alt'></i>
+          <h3>App Development</h3>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-skill="react">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="80"></div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <h4>React Native</h4>
+            <p>Knowledgeable in developing cross-platform mobile apps using React Native and Expo.</p>
+          </div>
+          <div class="skill-item" data-skill="flutter">
+            <div class="skill-progress">
+              <div class="skill-bar" data-level="70"></div>
+              <span class="skill-percent">70%</span>
+            </div>
+            <h4>Flutter</h4>
+            <p>Familiar with Flutter for creating mobile applications with smooth animations and user interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Particle Effects Container -->
+    <div class="particles-container"></div>
+  </section>
+  <!--Skills Section Code End-->
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="heading">Let's Create <span>Something Amazing</span></h2>
+        <p class="contact-description">I'm always excited to collaborate on new projects and bring creative ideas to life. Whether you have a specific project in mind or just want to chat about possibilities, I'd love to hear from you. Let's turn your vision into reality!</p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class='bx bx-envelope'></i>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p>adilchisty963@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class='bx bx-phone'></i>
+            <div class="contact-text">
+              <h3>Phone</h3>
+              <p>+92 3177746627</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class='bx bx-map'></i>
+            <div class="contact-text">
+              <h3>Location</h3>
+              <p>Ghouri Town, Islamabad</p>
+            </div>
+          </div>
+      </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/adil-chishty-0b8b4b1b2/" target="_blank" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/Adil-Amin-Chishty" target="_blank" class="social-icon"><i class='bx bxl-github'></i></a>
+          <a href="https://www.instagram.com/adil_chishty/" target="_blank" class="social-icon"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form id="contactForm" class="form">
+          <div class="form-group">
+            <div class="input-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Your Name</label>
+              <div class="line"></div>
+            </div>
+            
+            <div class="input-group">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Your Email</label>
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-group">
+              <input type="text" id="subject" name="subject" required>
+              <label for="subject">Subject</label>
+              <div class="line"></div>
+            </div>
+            
+            <div class="input-group">
+              <input type="tel" id="phone" name="phone">
+              <label for="phone">Phone (Optional)</label>
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="input-group textarea-group">
+            <textarea id="message" name="message" required></textarea>
+            <label for="message">Your Message</label>
+            <div class="line"></div>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span>Send Message</span>
+            <i class='bx bx-send'></i>
+          </button>
+    </form>
+      </div>
+    </div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+      <div class="floating-element element-1"></div>
+      <div class="floating-element element-2"></div>
+      <div class="floating-element element-3"></div>
+    </div>
+  </section>
 
   <!--Footer Section Code-->
   <footer class="footer">
+    <div class="footer-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
     <div class="social">
       <a href="https://www.instagram.com/adil_chishty/" target="_blank"><i class='bx bxl-instagram'></i></a>
       <a href="https://www.linkedin.com/in/adil-chishty-0b8b4b1b2/" target="_blank"><i class='bx bxl-linkedin'></i></a>
@@ -124,9 +469,9 @@
       &copy; 2025 Adil Chishty. All rights reserved.
       <br>Designed by Adil Chishty
     </p>
-    </footer> 
+  </footer> 
   <!--Footer Section Code End-->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
